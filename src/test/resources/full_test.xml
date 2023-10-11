@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full Test Suite">
+    <test name="Full Test">
+        <classes>
+            <class name="tests.CloudTest" />
+        </classes>
+    </test>
+</suite>

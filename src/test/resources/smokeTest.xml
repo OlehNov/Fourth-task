@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test Suite">
+    <test name="Smoke Test">
+        <classes>
+            <class name="tests.CloudTest">
+                <methods>
+                    <include name="createNewPaste" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
